@@ -376,22 +376,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:900px) {
     .banner {
         flex-direction: column-reverse;
@@ -425,4 +409,105 @@ a {
     .header__navigation {
         display: none;
     }
+}
+
+.portfoly{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background-color: #262626;
+}
+.portfoly_text{
+   padding-bottom: 2rem;
+    color: white;
+   text-align: center;
+   font-size: 70px;
+}
+.portfoly_border{
+
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left{
+    margin-right: 40px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E29800;
+    border-radius: 100%;
+    background-color: #E29800;
+}
+.reath{
+    margin-left: 40px;
+     width: 60px;
+    height: 60px;
+    border: 1px solid #E29800;
+    border-radius: 100%;
+    background-color: #E29800;
+}
+.border{
+    background-color: #3d3d3d;
+    border-radius: 40px;
+    width: 900px;
+    height: 600px;
+    display: flex;
+     border: 1px solid black;
+     align-items: center;
+     justify-content: center;
+     gap: 4rem;
+} 
+
+.portfoly_title{
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: x-large;
+}
+.portfoly_titl{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.mare{
+    color: #E29800;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
+.footer_footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+.footer_img{
+    width: 45px;
+    height: 45px;
+  
+}
+.footer_text{
+    font-size: large;
+    padding-top: 10px;
+}
+.footer_text_01{
+    font-size: large;
+    padding-top: 40px;
+}
+.top{
+    margin-right: 15px;
+    width: 160px;
+ 
+}
+.logo_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
